@@ -3,12 +3,15 @@
 
 ## Introduction of MPN activity participation records in the travel diary
 In the MPN travel diary, individuals report all trips they have taken over three consecutive days, providing details on the purpose and location of each origin and destination.
-the travel diary includes 12 travel purpose categories, only seven of which can be directly matched with the preference categories, including commute, business-related travel, education/study, shopping, visitation, sports and leisure activities. To enable comparison, we operationalised the remaining travel-diary purpose categories. The category “transport as a profession” was excluded from the analysis. The categories “dropping off/picking up people”, “delivering/picking up goods”, and “services/personal care” were mapped to the mode preference category volunteer/caregiving, as they all represent caregiving-related activities. Similarly, the category “touring, hiking” was mapped to the mode preference category leisure activities. <img width="468" height="247" alt="image" src="https://github.com/user-attachments/assets/b7f43bd2-f9a2-4c76-a9b3-3dd8d176bf68" />
+
+The travel diary includes 12 travel purpose categories, including "commute", "business-related travel", "education/study", "shopping", "visitation", "sports", "leisure activities", "dropping off/picking up people", "delivering/picking up goods", "services/personal care", and "touring, hiking”.
+
+These travel purposes are classified into three types—mandatory, maintenance, and discretionary—for further analysis. This classification was based on the temporal and spatial flexibility of the associated activities (i.e., the extent to which destinations and timing are fixed), following prior studies (Dharmowijoyo et al., 2018; Schlich & Axhausen, 2003; Srinivasan & Bhat, 2006). Mandatory travel, the least flexible, includes commuting, business-related travel, and education/study. Maintenance travel, with moderate flexibility, includes volunteer/caregiving and shopping. Discretionary travel, the most flexible, includes visitation, sports, and leisure activities. The degree of purpose-specific travel mode dissonance was then calculated as the proportion of trip segments using non-preferred modes out of the total number of trip segments for each purpose.
 
 
 ## File description
-Files with names in the format "Processing_MPN_Activity_participation_****" are used to summarise the frequency with which an individual participated in each type of activity over the three consecutive days.
-Files with names in the format "Processing_MPN_Dissonance_**" are used to analyse the extent to which the actual travel mode used for each type of activity matches the preferred mode for that activity.
+Files with names in the format "Processing_MPN_Activity_participation_XXXX" are used to summarise the frequency with which an individual participated in each type of activity over the three consecutive days.
+Files with names in the format "Processing_MPN_Dissonance_XXXX" are used to analyse the extent to which the actual travel mode used for each type of activity matches the preferred mode for that activity.
 
 ## Variable descriptions
 * Input variables
@@ -120,3 +123,14 @@ Files with names in the format "Processing_MPN_Dissonance_**" are used to analys
   - VOORKEUR_SPORTEN8: Preferred transport mode for sports: walking
     
 * Output variables 
+  - Total_mandatory: Total number of mandatory activities over the three days
+  - Total_maintenance: Total number of maintenance activities over the three days
+  - Total_discretionary: Total number of discretionary activities over the three days
+  - Consonant_mandatory: Number of mandatory activities that were participated in with the preferred mode over the three days.
+  - Consonant_maintenance: Number of maintenance activities that were participated in with the preferred mode over the three days.
+  - Consonant_discretionary: Number of discretionary activities that were participated in with the preferred mode over the three days.
+  - Dissonant_mandatory: Number of mandatory activities that were not participated in with the preferred mode over the three days.
+  - Dissonant_maintenance: Number of maintenance activities that were not participated in with the preferred mode over the three days.
+  - Dissonant_discretionary: Number of discretionary activities that were not participated in with the preferred mode over the three days.
+
+
