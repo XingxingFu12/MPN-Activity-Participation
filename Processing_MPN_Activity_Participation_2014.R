@@ -9,7 +9,7 @@ library(stringr)
 #Processing travel diary data
 
 #Read data
-Diary <- read_sav("/Users/xingxing/Library/CloudStorage/OneDrive-UniversiteitUtrecht/Phd/Paper 5 Multimodality by captive and cognitive dissonance/Data/2014/DAGBOEK data 2014 English.sav")
+Diary <- read_sav("/Users/xingxing/Library/CloudStorage/OneDrive-UniversiteitUtrecht/Phd/Paper 5 Paper 5 Multimodality and travel dissonance/Data/2014/DAGBOEK data 2014 English.sav")
 
 #Select columns which are needed
 Diary <- Diary[c(3,8,9,12,14,19,26,33,35,37,87,88)]
