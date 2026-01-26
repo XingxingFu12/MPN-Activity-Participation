@@ -4,7 +4,7 @@ library(haven)
 library(tidyr)
 
 #Read data
-Diary <- read_sav("/Users/xingxing/Library/CloudStorage/OneDrive-UniversiteitUtrecht/Phd/Paper 5 Multimodality by captive and cognitive dissonance/Data/2022/MPNWAVE10_DAGBOEKdata_en.sav")
+Diary <- read_sav("/Users/xingxing/Library/CloudStorage/OneDrive-UniversiteitUtrecht/Phd/Paper 5 Multimodality and travel dissonance/Data/2022/MPNWAVE10_DAGBOEKdata_en.sav")
 
 #Select columns which are needed
 Diary <- Diary[c(3,8,9,12,14,19,28,38,40,42,83,84)]
