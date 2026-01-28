@@ -6,7 +6,11 @@ In the MPN travel diary, individuals report all trips they have taken over three
 
 The travel diary includes 12 travel purpose categories, including "commute", "business-related travel", "education/study", "shopping", "visitation", "sports", "leisure activities", "dropping off/picking up people", "delivering/picking up goods", "services/personal care", and "touring, hiking”.
 
-These travel purposes are classified into three types—mandatory, maintenance, and discretionary—for further analysis. This classification was based on the temporal and spatial flexibility of the associated activities (i.e., the extent to which destinations and timing are fixed), following prior studies (Dharmowijoyo et al., 2018; Schlich & Axhausen, 2003; Srinivasan & Bhat, 2006). Mandatory travel, the least flexible, includes commuting, business-related travel, and education/study. Maintenance travel, with moderate flexibility, includes volunteer/caregiving and shopping. Discretionary travel, the most flexible, includes visitation, sports, and leisure activities. The degree of purpose-specific travel mode dissonance was then calculated as the proportion of trip segments using non-preferred modes out of the total number of trip segments for each purpose.
+These travel purposes are classified into three types—mandatory, maintenance, and discretionary—for further analysis. This classification was based on the temporal and spatial flexibility of the associated activities (i.e., the extent to which destinations and timing are fixed), following prior studies (Dharmowijoyo et al., 2018; Schlich & Axhausen, 2003; Srinivasan & Bhat, 2006). 
+- _Mandatory activities_, the least flexible, include commuting, business-related travel, and education/study.
+- _Maintenance activities_, with moderate flexibility, include volunteer/caregiving and shopping.
+- _Discretionary activities_, the most flexible, include visitation, sports, and leisure activities.
+The degree of purpose-specific travel mode dissonance was then calculated as the proportion of trip segments using non-preferred modes out of the total number of trip segments for each purpose.
 
 
 ## File description
