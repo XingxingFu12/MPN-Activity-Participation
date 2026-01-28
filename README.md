@@ -10,6 +10,7 @@ These travel purposes are classified into three types—mandatory, maintenance, 
 - _Mandatory activities_, the least flexible, include commuting, business-related travel, and education/study.
 - _Maintenance activities_, with moderate flexibility, include volunteer/caregiving and shopping.
 - _Discretionary activities_, the most flexible, include visitation, sports, and leisure activities.
+
 The degree of purpose-specific travel mode dissonance was then calculated as the proportion of trip segments using non-preferred modes out of the total number of trip segments for each purpose.
 
 
